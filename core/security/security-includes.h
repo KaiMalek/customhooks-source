@@ -1,0 +1,21 @@
+#include "../menu/menu.hpp"
+
+#include <windows.h>
+
+#include "security.h"
+#include "xor.h"
+#include "xorstr.h"
+#include "crypt-str.h"
+#include "version.h"
+#include "antidebug.h"
+#include "anti_leak.h"
+#include "base64.h"
+#include "blowfish.h"
+#include "md5.h"
+#include "ld32.h"
+#include "aes256.hpp"
+#include "raw_buffer.h"
+#include "memoryleaks.h"
+#include "vmprotect.h"
+#include "valveon.h"
+#include "valveoff.h"
